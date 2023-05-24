@@ -1,0 +1,134 @@
+/* Styles for the dashboard container */
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the dashboard item */
+.dashboard-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sound-thumbnail {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.sound-details {
+  flex-grow: 1;
+}
+
+.sound-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sound-plays {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.sound-completion {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Styles for the progress bar */
+.sound-completion .progress-bar {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.sound-completion .progress-bar-fill {
+  display: inline-block;
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Progress bar colors */
+.sound-completion .progress-bar-fill {
+  background-color: #4caf50; /* Green */
+}
+
+.sound-completion .progress-bar-fill.incomplete {
+  background-color: #f44336; /* Red */
+}
+/* Styles for the dashboard container */
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Styles for the dashboard item */
+.dashboard-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sound-thumbnail {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.sound-details {
+  flex-grow: 1;
+}
+
+.sound-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sound-plays {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.sound-graph {
+  margin-bottom: 10px;
+}
+
+.sound-completion {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Styles for the progress bar */
+.progress-bar {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.progress-bar-fill {
+  display: inline-block;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #4caf50; /* Green */
+}
+
+/* Progress bar incomplete state */
+.progress-bar-fill.incomplete {
+  background-color: #f44336; /* Red */
+}
